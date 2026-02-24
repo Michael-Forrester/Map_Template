@@ -10,7 +10,7 @@ mapStyle <- "Country"
 metric <- "Total_value"
 mapDataLoc <- paste0(root,"countries.geo.json")
 featureName <- "name"
-analyticalDataLoc <- paste0(root,"cheese_sample_data")
+analyticalDataLoc <- paste0(root,"sample_data")
 
 # Load map data
 mapData <- st_read(mapDataLoc)
